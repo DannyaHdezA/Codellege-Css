@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css?family=Molengo|Questrial&display=swap');
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+#tituloprincipal {
+    width: calc(100%);
+    height: 17vh;
+    margin-top: 0px;
+    background-image: url(./fondogris.jpg);
+    background-size: contain;
+}
+
+h1,
+.letraverde {
+    font-family: 'Molengo', sans-serif;
+    font-size: 100px;
+    margin-bottom: calc(0%);
+}
+
+.letraverde {
+    color: green;
+}
+
+.letraverde2 {
+    color: green;
+}
+
+.texto2 {
+    font-family: 'Questrial', sans-serif;
+    font-size: 15px;
+}
+
+.ciudad {
+    margin-top: 10px;
+    padding: 0px;
+    width: calc(100%);
+    height: 40vh;
+    background-image: url(./ciudad3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    background-position: center;
+    position: relative;
+}
+
+.margen {
+    left: calc(1%);
+    bottom: 2vh;
+    width: calc(98%);
+    height: 36vh;
+    border: 3px solid black;
+    background: transparent;
+    position: absolute;
+}
+
+h2 {
+    font-family: 'Molengo', sans-serif;
+    font-size: 15px;
+    margin-bottom: calc(0%);
+    text-align: center;
+    color: antiquewhite;
+}
+
+h3 {
+    font-family: 'Molengo', sans-serif;
+    font-size: 12px;
+    margin-bottom: calc(0%);
+    text-align: center;
+    color: antiquewhite;
+}
+
+#cajaprincipal {
+    width: calc(100%);
+}
+
+#caja1 {
+    border: 3px solid black;
+    background: rgb(85, 9, 70);
+}
+
+#circulo1 {
+    width: calc( 100px);
+    height: calc( 100px);
+    border-radius: 100px;
+    background: rgb(161, 14, 130);
+    border: 4px solid white;
+    text-align: center;
+    margin: auto;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#caja2 {
+    border: 3px solid black;
+    background: rgb(34, 43, 25);
+}
+
+#circulo2 {
+    width: calc( 100px);
+    height: calc( 100px);
+    border-radius: 100px;
+    border: 8px solid rgb(123, 255, 0);
+    background: rgb(34, 43, 25);
+    text-align: center;
+    margin: auto;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#caja3 {
+    border: 3px solid black;
+    background-image: url(./like.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#caja4 {
+    border: 3px solid black;
+    background-image: url(./hoja.jpg);
+    background-size: cover;
+}
+
+.caja {
+    line-height: 200px;
+    box-sizing: border-box;
+    margin: calc(1%);
+    width: 23%;
+    height: 50vh;
+    float: left;
+    line-height: 30px;
+}
